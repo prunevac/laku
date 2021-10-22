@@ -1,10 +1,9 @@
 {
-  "name": "lazy_kube",
+  "name": "laku",
   "version": "0.1.0",
-  "main": "src/index.js",
+  "main": "lin/index.js",
   "license": "MIT",
-  "scripts": {
-    "a": "node lib/index.js pf",
-    "p": "npm pack"
+  "bin": {
+    "laku": "./lib/index.js"
   }
 }
