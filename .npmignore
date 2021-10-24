@@ -1,0 +1,5 @@
+.idea
+*.tgz
+*.gif
+.npmrc
+.gitignore
