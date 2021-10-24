@@ -17,8 +17,8 @@ It will prompt an interactive selection from available contexts.
 ### show all contexts
 `laku csa` is just a less verbose alias to `kubectl config get-contexts`
 ### port forward
-![](pf.gif)
+![](https://github.com/prunevac/laku/blob/master/pf.gif)
 ### get pods
 `laku gp` is an interactive wrapper of `kubectl get pods --namespace <NAMESPACE_NAME> --contexts <CONTEXT_NAME>`
 ## disclaimer
-**laku** was made as a hobby project. It works on win10 with node.js 14.17.1 and kubectl 1.20.0. It should most likely work on other operating systems with newer node.js version. It depends on parsing of kubectl command outputs, when format of those outputs change then it will not work anymore.
+**laku** was made as a hobby project. It works on win10 with node.js 14.17.1 and kubectl 1.20.0. It should most likely work on other operating systems and with newer node.js versions. It depends on parsing of kubectl command outputs, when format of those outputs changes then it will not work anymore.
