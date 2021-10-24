@@ -16,7 +16,7 @@ It will prompt an interactive selection from available contexts.
 `laku cs`
 ### show all contexts
 `laku csa` is just a less verbose alias to `kubectl config get-contexts`
-### prot forward
+### port forward
 ![](pf.gif)
 ### get pods
 `laku gp` is an interactive wrapper of `kubectl get pods --namespace <NAMESPACE_NAME> --contexts <CONTEXT_NAME>`
