@@ -3,7 +3,8 @@
 
 ## install
 Installing the package globally gives you access to **laku** command line keyword.  
-```npm install laku -g```
+```npm install laku -g```  
+You can also use npx, e.g. `npx laku gp`
 
 ## capabilities
 
