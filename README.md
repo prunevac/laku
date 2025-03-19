@@ -28,5 +28,8 @@ It will prompt an interactive selection from available contexts.
 ### pfs (port forward for services)
 The same as `laku pf`, the only difference is it port-forwards services and not pods.
 
+### r
+Repeats last kubectl command executed via `laku pf`, `laku pfs` or `laku get`
+
 ### get
 `laku get` is an interactive wrapper of `kubectl get <RESOURCES> --namespace <NAMESPACE_NAME> --contexts <CONTEXT_NAME>`, where available `<RESOURCES>` are `pods` and `services`
